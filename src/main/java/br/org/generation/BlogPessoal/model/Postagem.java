@@ -28,6 +28,7 @@ public class Postagem {
 		@NotBlank
 		@Size(min = 5 ,max = 1000)
 		private String texto;
+		private String foto;
 		@UpdateTimestamp
 		private LocalDateTime data;
 		@ManyToOne
@@ -55,6 +56,12 @@ public class Postagem {
 		}
 		public void setTexto(String texto) {
 			this.texto = texto;
+		}
+		public String getFoto() {
+			return foto;
+		}
+		public void setFoto(String foto) {
+			this.foto = foto;
 		}
 		public LocalDateTime getData() {
 			return data;
