@@ -26,7 +26,7 @@ public OpenAPI springBlogPessoalOpenAPI() {
 				.contact(new Contact()
 					.name("alessandro")
 					.url("https://github.com/alessandroa98")
-					.email("lessandro.assuncao98@gmail.com")))
+					.email("alessandro.assuncao98@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
 					.description("github")
 					.url("https://github.com/alessandroa98"));
